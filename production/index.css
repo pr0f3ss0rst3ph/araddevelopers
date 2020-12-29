@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+/*
+.navigation{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 5vh;
+    width: 100vw;
+}
+*/
+
+.welcome{
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-color: cadetblue;
+   
+}
+
+
+
+.mainlogo{
+    margin-top: 20vh;
+    animation: fadeIn 1.5s ease;
+}
+
+.largetext1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight:500;
+    animation: fadeIn 1.5s ease;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.largetext2{
+    font-size: 30px;
+    margin-top: 1vh;
+    animation: fadeIn 5.5s ease;
+}
