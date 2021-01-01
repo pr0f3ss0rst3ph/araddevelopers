@@ -1,7 +1,42 @@
-.container{
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color:  rgb(255, 242, 225); /*Temporary*/
+}
+
+/*
+.navigation{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 5vh;
+    width: 100vw;
+}
+*/
+
+.welcome{
     text-align: center;
-    padding: 5px;
-    margin-top: 20vh;
+    padding: 10px;
+    height: 100vh;
+    background-color: rgb(255, 242, 225);
+   
+}
+
+
+
+.mainlogo{
+    margin-top: 10vh;
+    animation: fadeIn 1.5s ease;
+}
+
+.largetext1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight:500;
+    animation: fadeIn 1.5s ease;
+    transition: 2s;
 }
 
 #countdowntime{
@@ -9,24 +44,40 @@
     font-weight: bold;
     letter-spacing: 0.15em;
     color:rgb(82, 82, 82);
+    animation: fadeIn 7s ease;
+    transition: 2s;
+    margin-top: 3vh;
 }
 
-.largetext{
-    font-size: 36px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 10px;
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
+.largetext2{
+    font-size: 30px;
+    margin-top: 1vh;
+    animation: fadeIn 6s ease;
+    color:rgb(71, 71, 71)
+}
 .linksbox{
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    animation: fadeIn 5s ease;
 }
 
-.row{
-    margin-left: auto;
-    margin-right: auto;
+.detailstext{
+    animation: fadeIn 5s ease;
+}
+
+@media only screen and (max-width: 1366px){
+    .largetext1{
+       font-size: 32px; 
+    }
 }
