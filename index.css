@@ -80,4 +80,10 @@ body{
     .largetext1{
        font-size: 32px; 
     }
+    .largetext2{
+        font-size: 25px;
+    }
+    #countdowntime{
+        font-size: 25px;
+    }
 }
